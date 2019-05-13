@@ -278,7 +278,7 @@
 				CODE_SIGN_ENTITLEMENTS = todolist/todolist.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = JT58Z7RC6J;
+				DEVELOPMENT_TEAM = W7PDGJHBGF;
 				INFOPLIST_FILE = todolist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,7 +297,7 @@
 				CODE_SIGN_ENTITLEMENTS = todolist/todolist.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = JT58Z7RC6J;
+				DEVELOPMENT_TEAM = W7PDGJHBGF;
 				INFOPLIST_FILE = todolist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

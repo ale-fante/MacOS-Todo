@@ -13,6 +13,7 @@ class ViewController: NSViewController, NSTableViewDataSource, NSTableViewDelega
     @IBOutlet weak var textField: NSTextField!
     @IBOutlet weak var importantCheckBox: NSButton!
     @IBOutlet weak var tableView: NSTableView!
+    @IBOutlet weak var deleteButton: NSButton!
     
     var toDoItems : [ToDoItem] = []
     
@@ -59,6 +60,23 @@ class ViewController: NSViewController, NSTableViewDataSource, NSTableViewDelega
         }
     }
     
+    @IBAction func deleteClicked(_ sender: Any) {
+        let toDoItem = toDoItems[tableView.selectedRow]
+        
+        if let context = ((NSApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext) {
+            do {
+                context.delete(toDoItem)
+                
+                (NSApplication.shared.delegate as? AppDelegate)?.saveAction(nil)
+                
+                getToDoItems()
+                
+                deleteButton.isHidden = true
+            }
+        }
+    }
+    
+    
     // MARK: - TableView Stuff
     func numberOfRows(in tableView: NSTableView) -> Int {
         return toDoItems.count
@@ -77,7 +95,7 @@ class ViewController: NSViewController, NSTableViewDataSource, NSTableViewDelega
                 if toDoItem.important {
                     cell.textField?.stringValue = "📌"
                 } else {
-                    cell.textField?.stringValue = ""
+                    cell.textField?.stringValue = "💙"
                 }
                 
                 //cell.textField?.stringValue = toDoItem.name!
@@ -94,6 +112,10 @@ class ViewController: NSViewController, NSTableViewDataSource, NSTableViewDelega
             }
         }
         return nil
+    }
+    
+    func tableViewSelectionDidChange(_ notification: Notification) {
+        deleteButton.isHidden = false
     }
 }
 
