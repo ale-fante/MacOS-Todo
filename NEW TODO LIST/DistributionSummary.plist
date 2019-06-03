@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>todolist</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>x86_64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>EB00294C4A5D1FAFE2CEDC8D9227420D6A87EBE8</string>
+				<key>dateExpires</key>
+				<string>5/2/20</string>
+				<key>type</key>
+				<string>Mac Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>com.apple.security.app-sandbox</key>
+				<true/>
+				<key>com.apple.security.files.user-selected.read-only</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>todolist.app</string>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>W7PDGJHBGF</string>
+				<key>name</key>
+				<string>Viacom International Inc.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

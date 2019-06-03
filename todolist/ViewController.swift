@@ -93,9 +93,9 @@ class ViewController: NSViewController, NSTableViewDataSource, NSTableViewDelega
             if let cell = tableView.makeView(withIdentifier: NSUserInterfaceItemIdentifier(rawValue: "importantCell"), owner: self) as? NSTableCellView{
                 
                 if toDoItem.important {
-                    cell.textField?.stringValue = "📌"
+                    cell.textField?.stringValue = "☆"
                 } else {
-                    cell.textField?.stringValue = "💙"
+                    cell.textField?.stringValue = "❍"
                 }
                 
                 //cell.textField?.stringValue = toDoItem.name!

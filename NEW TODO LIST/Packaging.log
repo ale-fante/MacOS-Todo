@@ -1,0 +1,338 @@
+2019-06-03 16:57:43 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7ffe3b90dc20; archive(resolved)='<IDEArchive: 0x7ffe3ba5a7b0>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodDevelopmentSignedMac: 0x7ffe50911ac0>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7ffe4cc731c0; teamID='W7PDGJHBGF', teamName='Viacom International Inc.', teamType='Company', username='alejandra.ledesma@nick.com', isFreeProvisioningTeam='0'>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7ffe3b90dc20; archive = '<IDEArchive: 0x7ffe3ba5a7b0>', distributionMethod='<IDEDistributionMethodDevelopmentSignedMac: 0x7ffe50911ac0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ffe4cc731c0; teamID='W7PDGJHBGF', teamName='Viacom International Inc.', teamType='Company', username='alejandra.ledesma@nick.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7ffe51b9afa0; archive = '<IDEArchive: 0x7ffe3ba5a7b0>', distributionMethod='<IDEDistributionMethodDevelopmentSignedMac: 0x7ffe50911ac0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ffe4cc731c0; teamID='W7PDGJHBGF', teamName='Viacom International Inc.', teamType='Company', username='alejandra.ledesma@nick.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ffe3bde07b0; archive = '<IDEArchive: 0x7ffe3ba5a7b0>', distributionMethod='<IDEDistributionMethodDevelopmentSignedMac: 0x7ffe50911ac0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ffe4cc731c0; teamID='W7PDGJHBGF', teamName='Viacom International Inc.', teamType='Company', username='alejandra.ledesma@nick.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ffe3bdbf750; archive = '<IDEArchive: 0x7ffe3ba5a7b0>', distributionMethod='<IDEDistributionMethodDevelopmentSignedMac: 0x7ffe50911ac0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ffe4cc731c0; teamID='W7PDGJHBGF', teamName='Viacom International Inc.', teamType='Company', username='alejandra.ledesma@nick.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ffe3bc4ad00; archive = '<IDEArchive: 0x7ffe3ba5a7b0>', distributionMethod='<IDEDistributionMethodDevelopmentSignedMac: 0x7ffe50911ac0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ffe4cc731c0; teamID='W7PDGJHBGF', teamName='Viacom International Inc.', teamType='Company', username='alejandra.ledesma@nick.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ffe3927e1e0; archive = '<IDEArchive: 0x7ffe3ba5a7b0>', distributionMethod='<IDEDistributionMethodDevelopmentSignedMac: 0x7ffe50911ac0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ffe4cc731c0; teamID='W7PDGJHBGF', teamName='Viacom International Inc.', teamType='Company', username='alejandra.ledesma@nick.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ffe3bd931f0; archive = '<IDEArchive: 0x7ffe3ba5a7b0>', distributionMethod='<IDEDistributionMethodDevelopmentSignedMac: 0x7ffe50911ac0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ffe4cc731c0; teamID='W7PDGJHBGF', teamName='Viacom International Inc.', teamType='Company', username='alejandra.ledesma@nick.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ffe51e7bfd0; archive = '<IDEArchive: 0x7ffe3ba5a7b0>', distributionMethod='<IDEDistributionMethodDevelopmentSignedMac: 0x7ffe50911ac0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ffe4cc731c0; teamID='W7PDGJHBGF', teamName='Viacom International Inc.', teamType='Company', username='alejandra.ledesma@nick.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ffe3adb2fb0; archive = '<IDEArchive: 0x7ffe3ba5a7b0>', distributionMethod='<IDEDistributionMethodDevelopmentSignedMac: 0x7ffe50911ac0>', team='(null)'>
+	<IDEDistributionContext: 0x7ffe39ca49e0; archive = '<IDEArchive: 0x7ffe3ba5a7b0>', distributionMethod='<IDEDistributionMethodDevelopmentSignedMac: 0x7ffe50911ac0>', team='(null)'>
+	<IDEDistributionContext: 0x7ffe4fcc4090; archive = '<IDEArchive: 0x7ffe3ba5a7b0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7ffe3b90dc20>
+2019-06-03 16:57:43 +0000  Processing step: IDEDistributionCreateDestRootStep
+2019-06-03 16:57:43 +0000  Processing step: IDEDistributionCopyItemStep
+2019-06-03 16:57:43 +0000  Running /usr/bin/ditto '-V' '/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app'
+2019-06-03 16:57:43 +0000  >>> Copying /Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app 
+2019-06-03 16:57:43 +0000  copying file ./Contents/_CodeSignature/CodeResources ... 
+2019-06-03 16:57:43 +0000  10733 bytes for ./Contents/_CodeSignature/CodeResources
+2019-06-03 16:57:43 +0000  copying file ./Contents/MacOS/todolist ... 
+2019-06-03 16:57:43 +0000  69648 bytes for ./Contents/MacOS/todolist
+2019-06-03 16:57:43 +0000  copying file ./Contents/Resources/AppIcon.icns ... 
+2019-06-03 16:57:43 +0000  61428 bytes for ./Contents/Resources/AppIcon.icns
+2019-06-03 16:57:43 +0000  copying file ./Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib ... 
+2019-06-03 16:57:43 +0000  36160 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib
+2019-06-03 16:57:43 +0000  copying file ./Contents/Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib ... 
+2019-06-03 16:57:43 +0000  33752 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib
+copying file ./Contents/Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib ... 
+2019-06-03 16:57:43 +0000  3633 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib
+2019-06-03 16:57:43 +0000  copying file ./Contents/Resources/Base.lproj/Main.storyboardc/Info.plist ... 
+2019-06-03 16:57:43 +0000  445 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/Info.plist
+2019-06-03 16:57:43 +0000  copying file ./Contents/Resources/Assets.car ... 
+2019-06-03 16:57:43 +0000  415592 bytes for ./Contents/Resources/Assets.car
+2019-06-03 16:57:43 +0000  copying file ./Contents/Resources/todolist.momd/VersionInfo.plist ... 
+2019-06-03 16:57:43 +0000  201 bytes for ./Contents/Resources/todolist.momd/VersionInfo.plist
+2019-06-03 16:57:43 +0000  copying file ./Contents/Resources/todolist.momd/todolist.mom ... 
+2019-06-03 16:57:43 +0000  1333 bytes for ./Contents/Resources/todolist.momd/todolist.mom
+2019-06-03 16:57:43 +0000  copying file ./Contents/Resources/todolist.momd/todolist.omo ... 
+2019-06-03 16:57:43 +0000  2192 bytes for ./Contents/Resources/todolist.momd/todolist.omo
+2019-06-03 16:57:43 +0000  copying file ./Contents/Frameworks/libswiftAppKit.dylib ... 
+2019-06-03 16:57:43 +0000  222704 bytes for ./Contents/Frameworks/libswiftAppKit.dylib
+2019-06-03 16:57:43 +0000  copying file ./Contents/Frameworks/libswiftCoreImage.dylib ... 
+2019-06-03 16:57:43 +0000  50064 bytes for ./Contents/Frameworks/libswiftCoreImage.dylib
+copying file ./Contents/Frameworks/libswiftObjectiveC.dylib ... 
+2019-06-03 16:57:43 +0000  62272 bytes for ./Contents/Frameworks/libswiftObjectiveC.dylib
+2019-06-03 16:57:43 +0000  copying file ./Contents/Frameworks/libswiftXPC.dylib ... 
+2019-06-03 16:57:43 +0000  45744 bytes for ./Contents/Frameworks/libswiftXPC.dylib
+2019-06-03 16:57:43 +0000  copying file ./Contents/Frameworks/libswiftCore.dylib ... 
+2019-06-03 16:57:43 +0000  6456320 bytes for ./Contents/Frameworks/libswiftCore.dylib
+2019-06-03 16:57:43 +0000  copying file ./Contents/Frameworks/libswiftCoreGraphics.dylib ... 
+190560 bytes for ./Contents/Frameworks/libswiftCoreGraphics.dylib
+copying file ./Contents/Frameworks/libswiftMetal.dylib ... 
+2019-06-03 16:57:43 +0000  84928 bytes for ./Contents/Frameworks/libswiftMetal.dylib
+copying file ./Contents/Frameworks/libswiftCoreData.dylib ... 
+2019-06-03 16:57:43 +0000  98896 bytes for ./Contents/Frameworks/libswiftCoreData.dylib
+2019-06-03 16:57:43 +0000  copying file ./Contents/Frameworks/libswiftDispatch.dylib ... 
+2019-06-03 16:57:43 +0000  328288 bytes for ./Contents/Frameworks/libswiftDispatch.dylib
+2019-06-03 16:57:43 +0000  copying file ./Contents/Frameworks/libswiftos.dylib ... 
+2019-06-03 16:57:43 +0000  72368 bytes for ./Contents/Frameworks/libswiftos.dylib
+2019-06-03 16:57:43 +0000  copying file ./Contents/Frameworks/libswiftCoreFoundation.dylib ... 
+2019-06-03 16:57:43 +0000  42128 bytes for ./Contents/Frameworks/libswiftCoreFoundation.dylib
+2019-06-03 16:57:43 +0000  copying file ./Contents/Frameworks/libswiftDarwin.dylib ... 
+2019-06-03 16:57:43 +0000  99088 bytes for ./Contents/Frameworks/libswiftDarwin.dylib
+2019-06-03 16:57:43 +0000  copying file ./Contents/Frameworks/libswiftQuartzCore.dylib ... 
+2019-06-03 16:57:43 +0000  58368 bytes for ./Contents/Frameworks/libswiftQuartzCore.dylib
+2019-06-03 16:57:43 +0000  copying file ./Contents/Frameworks/libswiftIOKit.dylib ... 
+2019-06-03 16:57:43 +0000  45664 bytes for ./Contents/Frameworks/libswiftIOKit.dylib
+2019-06-03 16:57:43 +0000  copying file ./Contents/Frameworks/libswiftFoundation.dylib ... 
+2019-06-03 16:57:43 +0000  3163408 bytes for ./Contents/Frameworks/libswiftFoundation.dylib
+2019-06-03 16:57:43 +0000  copying file ./Contents/Info.plist ... 
+1571 bytes for ./Contents/Info.plist
+2019-06-03 16:57:43 +0000  copying file ./Contents/PkgInfo ... 
+2019-06-03 16:57:43 +0000  8 bytes for ./Contents/PkgInfo
+2019-06-03 16:57:43 +0000  /usr/bin/ditto exited with 0
+2019-06-03 16:57:43 +0000  Processing step: IDEDistributionEmbedProfileStep
+2019-06-03 16:57:43 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ffe3b96adb0 'com.apple.dt.runtime.swiftAppKit' '<DVTFilePath:0x7ffe39f988a0:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftAppKit.dylib'>'>
+2019-06-03 16:57:43 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ffe39b96e50 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7ffe3b96ad30:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftCore.dylib'>'>
+2019-06-03 16:57:43 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ffe39d8b7d0 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7ffe3ad3f120:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftCoreData.dylib'>'>
+2019-06-03 16:57:43 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ffe3b995890 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7ffe3a852ed0:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>'>
+2019-06-03 16:57:43 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ffe39d83c90 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7ffe3b9709e0:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>'>
+2019-06-03 16:57:43 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ffe51da2480 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7ffe3a81c620:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftCoreImage.dylib'>'>
+2019-06-03 16:57:43 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ffe3b738f40 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7ffe3a853b00:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftDarwin.dylib'>'>
+2019-06-03 16:57:43 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ffe3b16e0a0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7ffe51af50d0:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftDispatch.dylib'>'>
+2019-06-03 16:57:43 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ffe3ac5aa00 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7ffe391aa3b0:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftFoundation.dylib'>'>
+2019-06-03 16:57:43 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ffe39d8dd70 'com.apple.dt.runtime.swiftIOKit' '<DVTFilePath:0x7ffe3ac274c0:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftIOKit.dylib'>'>
+2019-06-03 16:57:43 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ffe39fabe00 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7ffe3a854190:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftMetal.dylib'>'>
+2019-06-03 16:57:43 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ffe39d290d0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7ffe39f97e60:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftObjectiveC.dylib'>'>
+2019-06-03 16:57:43 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ffe39d7aea0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7ffe3b970ed0:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftQuartzCore.dylib'>'>
+2019-06-03 16:57:43 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ffe3bdb80e0 'com.apple.dt.runtime.swiftXPC' '<DVTFilePath:0x7ffe3b98cb20:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftXPC.dylib'>'>
+2019-06-03 16:57:43 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ffe3bd2f9f0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7ffe3b97ee70:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftos.dylib'>'>
+2019-06-03 16:57:43 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ffe3bdbaee0 'ale.ledesma.todolist' '<DVTFilePath:0x7ffe51bf13f0:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app'>'>
+2019-06-03 16:57:43 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2019-06-03 16:57:43 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2019-06-03 16:57:43 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2019-06-03 16:57:43 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-06-03 16:57:43 +0000  Processing step: IDEDistributionSymbolsStep
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-06-03 16:57:43 +0000  Processing step: IDEDistributionAppThinningStep
+2019-06-03 16:57:43 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2019-06-03 16:57:43 +0000  Processing step: IDEDistributionArchThinningStep
+2019-06-03 16:57:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftAppKit.dylib' '-verify_arch' 'arm64e'
+2019-06-03 16:57:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-06-03 16:57:43 +0000  Skipping architecture thinning for item "libswiftAppKit.dylib" because arch "arm64e" wasn't found
+2019-06-03 16:57:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftCore.dylib' '-verify_arch' 'arm64e'
+2019-06-03 16:57:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-06-03 16:57:43 +0000  Skipping architecture thinning for item "libswiftCore.dylib" because arch "arm64e" wasn't found
+2019-06-03 16:57:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftCoreData.dylib' '-verify_arch' 'arm64e'
+2019-06-03 16:57:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-06-03 16:57:43 +0000  Skipping architecture thinning for item "libswiftCoreData.dylib" because arch "arm64e" wasn't found
+2019-06-03 16:57:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftCoreFoundation.dylib' '-verify_arch' 'arm64e'
+2019-06-03 16:57:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-06-03 16:57:43 +0000  Skipping architecture thinning for item "libswiftCoreFoundation.dylib" because arch "arm64e" wasn't found
+2019-06-03 16:57:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftCoreGraphics.dylib' '-verify_arch' 'arm64e'
+2019-06-03 16:57:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-06-03 16:57:43 +0000  Skipping architecture thinning for item "libswiftCoreGraphics.dylib" because arch "arm64e" wasn't found
+2019-06-03 16:57:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftCoreImage.dylib' '-verify_arch' 'arm64e'
+2019-06-03 16:57:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-06-03 16:57:43 +0000  Skipping architecture thinning for item "libswiftCoreImage.dylib" because arch "arm64e" wasn't found
+2019-06-03 16:57:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftDarwin.dylib' '-verify_arch' 'arm64e'
+2019-06-03 16:57:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-06-03 16:57:43 +0000  Skipping architecture thinning for item "libswiftDarwin.dylib" because arch "arm64e" wasn't found
+2019-06-03 16:57:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftDispatch.dylib' '-verify_arch' 'arm64e'
+2019-06-03 16:57:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-06-03 16:57:43 +0000  Skipping architecture thinning for item "libswiftDispatch.dylib" because arch "arm64e" wasn't found
+2019-06-03 16:57:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftFoundation.dylib' '-verify_arch' 'arm64e'
+2019-06-03 16:57:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-06-03 16:57:43 +0000  Skipping architecture thinning for item "libswiftFoundation.dylib" because arch "arm64e" wasn't found
+2019-06-03 16:57:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftIOKit.dylib' '-verify_arch' 'arm64e'
+2019-06-03 16:57:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-06-03 16:57:43 +0000  Skipping architecture thinning for item "libswiftIOKit.dylib" because arch "arm64e" wasn't found
+2019-06-03 16:57:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftMetal.dylib' '-verify_arch' 'arm64e'
+2019-06-03 16:57:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-06-03 16:57:43 +0000  Skipping architecture thinning for item "libswiftMetal.dylib" because arch "arm64e" wasn't found
+2019-06-03 16:57:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftObjectiveC.dylib' '-verify_arch' 'arm64e'
+2019-06-03 16:57:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-06-03 16:57:43 +0000  Skipping architecture thinning for item "libswiftObjectiveC.dylib" because arch "arm64e" wasn't found
+2019-06-03 16:57:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftQuartzCore.dylib' '-verify_arch' 'arm64e'
+2019-06-03 16:57:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-06-03 16:57:43 +0000  Skipping architecture thinning for item "libswiftQuartzCore.dylib" because arch "arm64e" wasn't found
+2019-06-03 16:57:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftXPC.dylib' '-verify_arch' 'arm64e'
+2019-06-03 16:57:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-06-03 16:57:43 +0000  Skipping architecture thinning for item "libswiftXPC.dylib" because arch "arm64e" wasn't found
+2019-06-03 16:57:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftos.dylib' '-verify_arch' 'arm64e'
+2019-06-03 16:57:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-06-03 16:57:43 +0000  Skipping architecture thinning for item "libswiftos.dylib" because arch "arm64e" wasn't found
+2019-06-03 16:57:43 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/MacOS/todolist' '-verify_arch' 'arm64e'
+2019-06-03 16:57:43 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-06-03 16:57:43 +0000  Skipping architecture thinning for item "todolist" because arch "arm64e" wasn't found
+2019-06-03 16:57:43 +0000  Processing step: IDEDistributionODRStep
+2019-06-03 16:57:43 +0000  Processing step: IDEDistributionStripXattrsStep
+2019-06-03 16:57:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ffe3b96adb0 'com.apple.dt.runtime.swiftAppKit' '<DVTFilePath:0x7ffe39f988a0:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftAppKit.dylib'>'>
+2019-06-03 16:57:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ffe39b96e50 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7ffe3b96ad30:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftCore.dylib'>'>
+2019-06-03 16:57:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ffe39d8b7d0 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7ffe3ad3f120:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftCoreData.dylib'>'>
+2019-06-03 16:57:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ffe3b995890 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7ffe3a852ed0:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>'>
+2019-06-03 16:57:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ffe39d83c90 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7ffe3b9709e0:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>'>
+2019-06-03 16:57:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ffe51da2480 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7ffe3a81c620:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftCoreImage.dylib'>'>
+2019-06-03 16:57:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ffe3b738f40 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7ffe3a853b00:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftDarwin.dylib'>'>
+2019-06-03 16:57:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ffe3b16e0a0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7ffe51af50d0:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftDispatch.dylib'>'>
+2019-06-03 16:57:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ffe3ac5aa00 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7ffe391aa3b0:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftFoundation.dylib'>'>
+2019-06-03 16:57:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ffe39d8dd70 'com.apple.dt.runtime.swiftIOKit' '<DVTFilePath:0x7ffe3ac274c0:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftIOKit.dylib'>'>
+2019-06-03 16:57:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ffe39fabe00 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7ffe3a854190:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftMetal.dylib'>'>
+2019-06-03 16:57:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ffe39d290d0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7ffe39f97e60:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftObjectiveC.dylib'>'>
+2019-06-03 16:57:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ffe39d7aea0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7ffe3b970ed0:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftQuartzCore.dylib'>'>
+2019-06-03 16:57:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ffe3bdb80e0 'com.apple.dt.runtime.swiftXPC' '<DVTFilePath:0x7ffe3b98cb20:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftXPC.dylib'>'>
+2019-06-03 16:57:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ffe3bd2f9f0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7ffe3b97ee70:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftos.dylib'>'>
+2019-06-03 16:57:43 +0000  Running /usr/bin/xattr '-crs' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app'
+2019-06-03 16:57:43 +0000  /usr/bin/xattr exited with 0
+2019-06-03 16:57:43 +0000  Processing step: IDEDistributionCodesignStep
+2019-06-03 16:57:43 +0000  Entitlements for <IDEDistributionItem: 0x7ffe3b96adb0 'com.apple.dt.runtime.swiftAppKit' '<DVTFilePath:0x7ffe39f988a0:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftAppKit.dylib'>'>: {
+}
+2019-06-03 16:57:43 +0000  Writing entitlements for <IDEDistributionItem: 0x7ffe3b96adb0 'com.apple.dt.runtime.swiftAppKit' '<DVTFilePath:0x7ffe39f988a0:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftAppKit.dylib'>'> to: /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/entitlements~~~2upG7D
+2019-06-03 16:57:43 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EB00294C4A5D1FAFE2CEDC8D9227420D6A87EBE8' '--entitlements' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/entitlements~~~2upG7D' '--preserve-metadata=identifier,flags,runtime' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftAppKit.dylib'
+2019-06-03 16:57:43 +0000  /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftAppKit.dylib: replacing existing signature
+2019-06-03 16:57:44 +0000  /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftAppKit.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftAppKit]
+2019-06-03 16:57:44 +0000  /usr/bin/codesign exited with 0
+2019-06-03 16:57:44 +0000  Entitlements for <IDEDistributionItem: 0x7ffe39b96e50 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7ffe3b96ad30:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftCore.dylib'>'>: {
+}
+2019-06-03 16:57:44 +0000  Writing entitlements for <IDEDistributionItem: 0x7ffe39b96e50 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7ffe3b96ad30:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftCore.dylib'>'> to: /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/entitlements~~~keoBET
+2019-06-03 16:57:44 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EB00294C4A5D1FAFE2CEDC8D9227420D6A87EBE8' '--entitlements' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/entitlements~~~keoBET' '--preserve-metadata=identifier,flags,runtime' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftCore.dylib'
+2019-06-03 16:57:44 +0000  /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftCore.dylib: replacing existing signature
+2019-06-03 16:57:44 +0000  /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftCore.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCore]
+2019-06-03 16:57:44 +0000  /usr/bin/codesign exited with 0
+2019-06-03 16:57:44 +0000  Entitlements for <IDEDistributionItem: 0x7ffe39d8b7d0 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7ffe3ad3f120:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftCoreData.dylib'>'>: {
+}
+2019-06-03 16:57:44 +0000  Writing entitlements for <IDEDistributionItem: 0x7ffe39d8b7d0 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7ffe3ad3f120:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftCoreData.dylib'>'> to: /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/entitlements~~~hJmrb0
+2019-06-03 16:57:44 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EB00294C4A5D1FAFE2CEDC8D9227420D6A87EBE8' '--entitlements' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/entitlements~~~hJmrb0' '--preserve-metadata=identifier,flags,runtime' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftCoreData.dylib'
+2019-06-03 16:57:44 +0000  /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftCoreData.dylib: replacing existing signature
+2019-06-03 16:57:44 +0000  /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftCoreData.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCoreData]
+2019-06-03 16:57:44 +0000  /usr/bin/codesign exited with 0
+2019-06-03 16:57:44 +0000  Entitlements for <IDEDistributionItem: 0x7ffe3b995890 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7ffe3a852ed0:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>'>: {
+}
+2019-06-03 16:57:44 +0000  Writing entitlements for <IDEDistributionItem: 0x7ffe3b995890 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7ffe3a852ed0:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>'> to: /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/entitlements~~~VEnZkS
+2019-06-03 16:57:44 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EB00294C4A5D1FAFE2CEDC8D9227420D6A87EBE8' '--entitlements' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/entitlements~~~VEnZkS' '--preserve-metadata=identifier,flags,runtime' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftCoreFoundation.dylib'
+2019-06-03 16:57:44 +0000  /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2019-06-03 16:57:44 +0000  /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCoreFoundation]
+2019-06-03 16:57:44 +0000  /usr/bin/codesign exited with 0
+2019-06-03 16:57:44 +0000  Entitlements for <IDEDistributionItem: 0x7ffe39d83c90 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7ffe3b9709e0:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>'>: {
+}
+2019-06-03 16:57:44 +0000  Writing entitlements for <IDEDistributionItem: 0x7ffe39d83c90 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7ffe3b9709e0:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>'> to: /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/entitlements~~~5qHnjo
+2019-06-03 16:57:44 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EB00294C4A5D1FAFE2CEDC8D9227420D6A87EBE8' '--entitlements' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/entitlements~~~5qHnjo' '--preserve-metadata=identifier,flags,runtime' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftCoreGraphics.dylib'
+2019-06-03 16:57:44 +0000  /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2019-06-03 16:57:44 +0000  /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCoreGraphics]
+2019-06-03 16:57:44 +0000  /usr/bin/codesign exited with 0
+2019-06-03 16:57:44 +0000  Entitlements for <IDEDistributionItem: 0x7ffe51da2480 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7ffe3a81c620:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftCoreImage.dylib'>'>: {
+}
+2019-06-03 16:57:44 +0000  Writing entitlements for <IDEDistributionItem: 0x7ffe51da2480 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7ffe3a81c620:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftCoreImage.dylib'>'> to: /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/entitlements~~~02H77w
+2019-06-03 16:57:44 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EB00294C4A5D1FAFE2CEDC8D9227420D6A87EBE8' '--entitlements' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/entitlements~~~02H77w' '--preserve-metadata=identifier,flags,runtime' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftCoreImage.dylib'
+2019-06-03 16:57:44 +0000  /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftCoreImage.dylib: replacing existing signature
+2019-06-03 16:57:44 +0000  /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftCoreImage.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCoreImage]
+2019-06-03 16:57:44 +0000  
+2019-06-03 16:57:44 +0000  /usr/bin/codesign exited with 0
+2019-06-03 16:57:44 +0000  Entitlements for <IDEDistributionItem: 0x7ffe3b738f40 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7ffe3a853b00:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftDarwin.dylib'>'>: {
+}
+2019-06-03 16:57:44 +0000  Writing entitlements for <IDEDistributionItem: 0x7ffe3b738f40 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7ffe3a853b00:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftDarwin.dylib'>'> to: /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/entitlements~~~ri80iT
+2019-06-03 16:57:44 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EB00294C4A5D1FAFE2CEDC8D9227420D6A87EBE8' '--entitlements' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/entitlements~~~ri80iT' '--preserve-metadata=identifier,flags,runtime' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftDarwin.dylib'
+2019-06-03 16:57:44 +0000  /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2019-06-03 16:57:44 +0000  /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftDarwin.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftDarwin]
+2019-06-03 16:57:44 +0000  /usr/bin/codesign exited with 0
+2019-06-03 16:57:44 +0000  Entitlements for <IDEDistributionItem: 0x7ffe3b16e0a0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7ffe51af50d0:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftDispatch.dylib'>'>: {
+}
+2019-06-03 16:57:44 +0000  Writing entitlements for <IDEDistributionItem: 0x7ffe3b16e0a0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7ffe51af50d0:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftDispatch.dylib'>'> to: /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/entitlements~~~0yixsR
+2019-06-03 16:57:44 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EB00294C4A5D1FAFE2CEDC8D9227420D6A87EBE8' '--entitlements' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/entitlements~~~0yixsR' '--preserve-metadata=identifier,flags,runtime' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftDispatch.dylib'
+2019-06-03 16:57:44 +0000  /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2019-06-03 16:57:44 +0000  /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftDispatch.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftDispatch]
+2019-06-03 16:57:44 +0000  /usr/bin/codesign exited with 0
+2019-06-03 16:57:44 +0000  Entitlements for <IDEDistributionItem: 0x7ffe3ac5aa00 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7ffe391aa3b0:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftFoundation.dylib'>'>: {
+}
+2019-06-03 16:57:44 +0000  Writing entitlements for <IDEDistributionItem: 0x7ffe3ac5aa00 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7ffe391aa3b0:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftFoundation.dylib'>'> to: /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/entitlements~~~vRz8Pl
+2019-06-03 16:57:44 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EB00294C4A5D1FAFE2CEDC8D9227420D6A87EBE8' '--entitlements' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/entitlements~~~vRz8Pl' '--preserve-metadata=identifier,flags,runtime' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftFoundation.dylib'
+2019-06-03 16:57:44 +0000  /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2019-06-03 16:57:44 +0000  /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftFoundation.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftFoundation]
+2019-06-03 16:57:44 +0000  /usr/bin/codesign exited with 0
+2019-06-03 16:57:44 +0000  Entitlements for <IDEDistributionItem: 0x7ffe39d8dd70 'com.apple.dt.runtime.swiftIOKit' '<DVTFilePath:0x7ffe3ac274c0:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftIOKit.dylib'>'>: {
+}
+2019-06-03 16:57:44 +0000  Writing entitlements for <IDEDistributionItem: 0x7ffe39d8dd70 'com.apple.dt.runtime.swiftIOKit' '<DVTFilePath:0x7ffe3ac274c0:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftIOKit.dylib'>'> to: /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/entitlements~~~DLlCHI
+2019-06-03 16:57:44 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EB00294C4A5D1FAFE2CEDC8D9227420D6A87EBE8' '--entitlements' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/entitlements~~~DLlCHI' '--preserve-metadata=identifier,flags,runtime' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftIOKit.dylib'
+2019-06-03 16:57:44 +0000  /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftIOKit.dylib: replacing existing signature
+2019-06-03 16:57:44 +0000  /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftIOKit.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftIOKit]
+2019-06-03 16:57:44 +0000  /usr/bin/codesign exited with 0
+2019-06-03 16:57:44 +0000  Entitlements for <IDEDistributionItem: 0x7ffe39fabe00 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7ffe3a854190:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftMetal.dylib'>'>: {
+}
+2019-06-03 16:57:44 +0000  Writing entitlements for <IDEDistributionItem: 0x7ffe39fabe00 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7ffe3a854190:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftMetal.dylib'>'> to: /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/entitlements~~~KP7pE3
+2019-06-03 16:57:44 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EB00294C4A5D1FAFE2CEDC8D9227420D6A87EBE8' '--entitlements' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/entitlements~~~KP7pE3' '--preserve-metadata=identifier,flags,runtime' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftMetal.dylib'
+2019-06-03 16:57:44 +0000  /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftMetal.dylib: replacing existing signature
+2019-06-03 16:57:45 +0000  /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftMetal.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftMetal]
+2019-06-03 16:57:45 +0000  /usr/bin/codesign exited with 0
+2019-06-03 16:57:45 +0000  Entitlements for <IDEDistributionItem: 0x7ffe39d290d0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7ffe39f97e60:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftObjectiveC.dylib'>'>: {
+}
+2019-06-03 16:57:45 +0000  Writing entitlements for <IDEDistributionItem: 0x7ffe39d290d0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7ffe39f97e60:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftObjectiveC.dylib'>'> to: /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/entitlements~~~3wQAn7
+2019-06-03 16:57:45 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EB00294C4A5D1FAFE2CEDC8D9227420D6A87EBE8' '--entitlements' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/entitlements~~~3wQAn7' '--preserve-metadata=identifier,flags,runtime' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftObjectiveC.dylib'
+2019-06-03 16:57:45 +0000  /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2019-06-03 16:57:45 +0000  /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftObjectiveC.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftObjectiveC]
+2019-06-03 16:57:45 +0000  /usr/bin/codesign exited with 0
+2019-06-03 16:57:45 +0000  Entitlements for <IDEDistributionItem: 0x7ffe39d7aea0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7ffe3b970ed0:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftQuartzCore.dylib'>'>: {
+}
+2019-06-03 16:57:45 +0000  Writing entitlements for <IDEDistributionItem: 0x7ffe39d7aea0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7ffe3b970ed0:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftQuartzCore.dylib'>'> to: /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/entitlements~~~AnOEMz
+2019-06-03 16:57:45 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EB00294C4A5D1FAFE2CEDC8D9227420D6A87EBE8' '--entitlements' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/entitlements~~~AnOEMz' '--preserve-metadata=identifier,flags,runtime' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftQuartzCore.dylib'
+2019-06-03 16:57:45 +0000  /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftQuartzCore.dylib: replacing existing signature
+2019-06-03 16:57:45 +0000  /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftQuartzCore.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftQuartzCore]
+2019-06-03 16:57:45 +0000  /usr/bin/codesign exited with 0
+2019-06-03 16:57:45 +0000  Entitlements for <IDEDistributionItem: 0x7ffe3bdb80e0 'com.apple.dt.runtime.swiftXPC' '<DVTFilePath:0x7ffe3b98cb20:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftXPC.dylib'>'>: {
+}
+2019-06-03 16:57:45 +0000  Writing entitlements for <IDEDistributionItem: 0x7ffe3bdb80e0 'com.apple.dt.runtime.swiftXPC' '<DVTFilePath:0x7ffe3b98cb20:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftXPC.dylib'>'> to: /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/entitlements~~~8if7BX
+2019-06-03 16:57:45 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EB00294C4A5D1FAFE2CEDC8D9227420D6A87EBE8' '--entitlements' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/entitlements~~~8if7BX' '--preserve-metadata=identifier,flags,runtime' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftXPC.dylib'
+2019-06-03 16:57:45 +0000  /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftXPC.dylib: replacing existing signature
+2019-06-03 16:57:45 +0000  /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftXPC.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftXPC]
+2019-06-03 16:57:45 +0000  /usr/bin/codesign exited with 0
+2019-06-03 16:57:45 +0000  Entitlements for <IDEDistributionItem: 0x7ffe3bd2f9f0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7ffe3b97ee70:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftos.dylib'>'>: {
+}
+2019-06-03 16:57:45 +0000  Writing entitlements for <IDEDistributionItem: 0x7ffe3bd2f9f0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7ffe3b97ee70:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app/Contents/Frameworks/libswiftos.dylib'>'> to: /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/entitlements~~~fIUcRj
+2019-06-03 16:57:45 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EB00294C4A5D1FAFE2CEDC8D9227420D6A87EBE8' '--entitlements' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/entitlements~~~fIUcRj' '--preserve-metadata=identifier,flags,runtime' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftos.dylib'
+2019-06-03 16:57:45 +0000  /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftos.dylib: replacing existing signature
+2019-06-03 16:57:45 +0000  /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app/Contents/Frameworks/libswiftos.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftos]
+2019-06-03 16:57:45 +0000  /usr/bin/codesign exited with 0
+2019-06-03 16:57:45 +0000  Entitlements for <IDEDistributionItem: 0x7ffe3bdbaee0 'ale.ledesma.todolist' '<DVTFilePath:0x7ffe51bf13f0:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app'>'>: {
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+}
+2019-06-03 16:57:45 +0000  Writing entitlements for <IDEDistributionItem: 0x7ffe3bdbaee0 'ale.ledesma.todolist' '<DVTFilePath:0x7ffe51bf13f0:'/Users/ledesmaa/Library/Developer/Xcode/Archives/2019-06-03/todolist 6-3-19, 9.57 AM.xcarchive/Products/Applications/todolist.app'>'> to: /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/entitlements~~~5nas5A
+2019-06-03 16:57:45 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EB00294C4A5D1FAFE2CEDC8D9227420D6A87EBE8' '--entitlements' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/entitlements~~~5nas5A' '--preserve-metadata=identifier,flags,runtime' '/var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app'
+2019-06-03 16:57:45 +0000  /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app: replacing existing signature
+2019-06-03 16:57:45 +0000  /var/folders/8y/5qj8qlbn48scty7j0qkc9dxd3rpy52/T/XcodeDistPipeline.~~~cYtoAf/Root/Applications/todolist.app: signed app bundle with Mach-O thin (x86_64) [ale.ledesma.todolist]
+2019-06-03 16:57:45 +0000  /usr/bin/codesign exited with 0
+2019-06-03 16:57:45 +0000  Processing step: IDEDistributionZipODRItemStep
+2019-06-03 16:57:45 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-06-03 16:57:45 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-06-03 16:57:45 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-06-03 16:57:45 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-06-03 16:57:45 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-06-03 16:57:45 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-06-03 16:57:45 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-06-03 16:57:45 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-06-03 16:57:45 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-06-03 16:57:45 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-06-03 16:57:45 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-06-03 16:57:45 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-06-03 16:57:45 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-06-03 16:57:45 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-06-03 16:57:45 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-06-03 16:57:45 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-06-03 16:57:45 +0000  Processing step: IDEDistributionSkipPackagingStep
+2019-06-03 16:57:45 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2019-06-03 16:57:45 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2019-06-03 16:57:45 +0000  Processing step: IDEDistributionCreateManifestStep
+2019-06-03 16:57:45 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so
